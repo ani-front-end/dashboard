@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
+// import Home from './views/Home.vue'
 import First from './views/First.vue'
 import Second from './views/Second.vue'
 import Third from './views/Third.vue'
