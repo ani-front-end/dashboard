@@ -36,8 +36,6 @@
             }
         },
         computed:{
-            getTime(){
-            }
         }
     }
 </script>
@@ -50,11 +48,11 @@
         color: #ffffff !important;
         background: #101d3c;
         width: 100%;
-        height: 100%;
+        height:100%;
     }
     .app-header {
         width: 100%;
-        height: 15%;
+        height: 9%;
         background: none;
         display: flex;
         flex-direction: row;

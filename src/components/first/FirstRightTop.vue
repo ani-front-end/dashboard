@@ -1,20 +1,20 @@
 <template>
-    <div class="header">
-        <span :class="getColorClass">{{ title }}</span>
-    </div>
+  <div class="content">
+    <!--<h1>{{ msg }}</h1>-->
+  </div>
 </template>
-
 <script>
     export default {
         data () {
             return {
-//                isBlue: false,
+                msg: 'Right-Top',
             }
         },
         props: [
             'title',
-            'isBlue'
         ],
+        mounted() {
+        },
         computed: {
             getColorClass: function () {
                 return {
@@ -27,16 +27,5 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-    .title-color{
-        color:#68ebfa;
-    }
-    .header {
-        width: 100%;
-        height: 0.32rem;
-        background: #102e5d;
-        font-size: 0.1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+
 </style>
