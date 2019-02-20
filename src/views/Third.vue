@@ -100,16 +100,18 @@
       height: 54%;
       .top-left {
         margin: 0.1rem 0.05rem 0rem 0.1rem;
-        border: 0.1px solid pink;
+        box-shadow: 2px 2px 15px #0e3367 inset,
+          -2px -2px 15px #0e3367 inset;
         width: 50%;
         .top-left-content{
-          height: 91%;
+          height: 90%;
           display: flex;
           .top-left-left{
             width:49%;
             height: 97%;
+            padding: 0.03rem;
             margin: 0.05rem 0.05rem 0.05rem 0.1rem;
-            border: 0.1px solid pink;
+            border: 0.1px solid #696d8d;
             .top-left-left-top{
               width:98%;
               height: 42%;
@@ -126,29 +128,34 @@
           .top-left-right{
             width:49%;
             height: 97%;
+            padding: 0.03rem;
             margin: 0.05rem 0.1rem 0.05rem 0rem;
-            border: 0.1px solid pink;
+            border: 0.1px solid #696d8d;
           }
         }
       }
       .top-right{
           margin: 0.1rem 0.05rem 0rem 0.1rem;
-          border: 0.1px solid pink;
+          border: 0.1px solid #0e3367;
+          box-shadow: 2px 2px 15px #0e3367 inset,
+          -2px -2px 15px #0e3367 inset;
           width: 50%;
         .top-right-content{
           display: flex;
           height:91%;
           .top-right-left{
+            padding: 0.03rem;
+            border: 0.1px solid #696d8d;
             width:49%;
-            height: 97%;
+            height: 96%;
             margin: 0.05rem 0.05rem 0.05rem 0.1rem;
-            border: 0.1px solid pink;
           }
           .top-right-right{
             width:49%;
-            height: 97%;
+            height: 96%;
+            padding: 0.03rem;
             margin: 0.05rem 0.1rem 0.05rem 0rem;
-            border: 0.1px solid pink;
+            border: 0.1px solid #696d8d;
           }
         }
       }
@@ -159,26 +166,32 @@
       .bottom-left{
         width: 50%;
         margin: 0.1rem 0.05rem 0.1rem 0.1rem;
-        border: 0.1px solid pink;
+        border: 0.1px solid #0e3367;
+        box-shadow: 2px 2px 15px #0e3367 inset,
+          -2px -2px 15px #0e3367 inset;
       }
       .bottom-right{
         margin: 0.1rem 0.05rem 0.1rem 0.1rem;
-        border: 0.1px solid pink;
+        border: 0.1px solid #0e3367;
+        box-shadow: 2px 2px 15px #0e3367 inset,
+          -2px -2px 15px #0e3367 inset;
         width: 50%;
         .bottom-right-content{
           height:91%;
           display: flex;
           .bottom-right-left{
+            padding: 0.03rem;
             width:49%;
-            height: 96.6%;
+            height: 94%;
             margin: 0.05rem 0.05rem 0.05rem 0.1rem;
-            border: 0.1px solid pink;
+            border: 0.1px solid #696d8d;
           }
           .bottom-right-right{
+            padding: 0.03rem;
             width:49%;
-            height: 96.6%;
+            height: 94%;
             margin: 0.05rem 0.1rem 0.05rem 0rem;
-            border: 0.1px solid pink;
+            border: 0.1px solid #696d8d;
           }
         }
       }

@@ -151,8 +151,8 @@
       .center-bottom{
         background: none;
         border: 0.1px solid #0e3367;
-        box-shadow: 3px 3px 15px #0e3367 inset,
-                    -3px -3px 15px #0e3367 inset;
+        box-shadow: 2px 2px 15px #0e3367 inset,
+                    -2px -2px 15px #0e3367 inset;
         height: 45.6%;
         display: flex;
         align-items: flex-end;

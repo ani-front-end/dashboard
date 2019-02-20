@@ -51,8 +51,8 @@
       .top-left {
         margin: 0.1rem 0.05rem 0rem 0.1rem;
         border: 0.1px solid #0e3367;
-        box-shadow: 3px 3px 15px #0e3367 inset,
-          -3px -3px 15px #0e3367 inset;
+        box-shadow: 2px 2px 15px #0e3367 inset,
+          -2px -2px 15px #0e3367 inset;
         width: 60%;
         .top-left-header{
           display: flex;
@@ -66,8 +66,8 @@
       .top-right{
         margin: 0.1rem 0.1rem 0rem 0.05rem;
         border: 0.1px solid #0e3367;
-        box-shadow: 3px 3px 15px #0e3367 inset,
-          -3px -3px 15px #0e3367 inset;
+        box-shadow: 2px 2px 15px #0e3367 inset,
+          -2px -2px 15px #0e3367 inset;
         width: 40%;
         .top-right-header{
           display: flex;
@@ -81,8 +81,10 @@
     }
     .bottom{
       margin: 0.1rem 0.1rem 0.1rem 0.1rem;
-      border: 0.1px solid pink;
+      border: 0.1px solid #0e3367;
       height: 53%;
+      box-shadow: 2px 2px 15px #0e3367 inset,
+        -2px -2px 15px #0e3367 inset;
       .bottom-header{
         display: flex;
         align-items: center;
