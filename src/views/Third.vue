@@ -116,13 +116,13 @@
               width:98%;
               height: 42%;
               margin: 0.02rem 0.03rem 0.02rem 0.03rem;
-              border: 0.1px solid pink;
+              /*border: 0.1px solid pink;*/
             }
             .top-left-left-bottom{
               width:98%;
               height: 56%;
               margin: 0.02rem 0.03rem 0.02rem 0.03rem;
-              border: 0.1px solid pink;
+              /*border: 0.1px solid pink;*/
             }
           }
           .top-left-right{

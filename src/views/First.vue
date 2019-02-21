@@ -4,7 +4,6 @@
       <div class="left-top">
         <CardHeaderTitle title="机关产生问题统计"></CardHeaderTitle>
         <FirstLeftTop></FirstLeftTop>
-        <!--<div id="myChart"></div>-->
       </div>
       <div class="left-middle">
         <CardHeaderTitle title="机关发现问题统计"></CardHeaderTitle>
@@ -25,7 +24,7 @@
           <FirstCenterBottomLeft></FirstCenterBottomLeft>
         </div>
         <div class="center-bottom-center">
-          <LittleCardHeaderTitle title="安全2等级"></LittleCardHeaderTitle>
+          <LittleCardHeaderTitle title="安全等级"></LittleCardHeaderTitle>
           <FirstCenterBottomCenter></FirstCenterBottomCenter>
         </div>
         <div class="center-bottom-right">
@@ -87,27 +86,8 @@
 
         },
         mounted(){
-//            this.drawLine();
         },
         methods: {
-//            drawLine(){
-//                // 基于准备好的dom，初始化echarts实例
-//                let myChart = this.$echarts.init(document.getElementById('myChart'))
-//                // 绘制图表
-//                myChart.setOption({
-//                    title: { text: 'test' },
-//                    tooltip: {},
-//                    xAxis: {
-//                        data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
-//                    },
-//                    yAxis: {},
-//                    series: [{
-//                        name: '销量',
-//                        type: 'bar',
-//                        data: [5, 20, 36, 10, 10, 20]
-//                    }]
-//                });
-//            }
         }
     }
 </script>

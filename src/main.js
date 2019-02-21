@@ -6,6 +6,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 
 // 引入echarts
 import echarts from 'echarts'
+import ECharts from 'vue-echarts/components/ECharts'
+import 'echarts/lib/chart/line'
+Vue.component('chart', ECharts)
 Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false
 Vue.use(ElementUI);
