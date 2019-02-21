@@ -3,11 +3,13 @@ import App from './App.vue'
 import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import './style/index.less'
 
 
 
 import ECharts from 'vue-echarts/components/ECharts'
 import 'echarts/lib/chart/line'
+import 'echarts/lib/chart/bar'
 Vue.component('chart', ECharts)
 
 // 引入echarts

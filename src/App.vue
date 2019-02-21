@@ -5,7 +5,7 @@
                 <span class="left-title">安全管理状态中心</span>
             </div>
             <div class="app-header-nav">
-                <router-link to="/" class="banner-title">首页</router-link>
+                <router-link to="/" class="banner-title" style="font-family: 'yahei'">首页</router-link>
                 <router-link to="/second" class="banner-title">环比情况</router-link>
                 <router-link to="/third" class="banner-title">一级问题管理</router-link>
             </div>
@@ -41,12 +41,10 @@
 </script>
 <style lang="less">
     #app {
-        font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #ffffff !important;
-        background: #101d3c;
         width: 100%;
         height:100%;
     }

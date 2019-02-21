@@ -1,6 +1,5 @@
 <template>
   <div class="content">
-    <!--<h1>{{ msg }}</h1>-->
     <chart  ref="chart1"
             style="height: 3.5rem;width: 7.7rem"
             :options="orgOptions"
@@ -26,7 +25,6 @@
                         smooth: true
                     }]
                 },
-                msg: 'CenterTop',
             }
         },
         props: [
