@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <chart  ref="chart1"
-            style="height: 3.5rem;width: 7.7rem"
+            style="height: 100%;width: 100%"
             :options="orgOptions"
             :autoresize=true
     ></chart>
@@ -50,5 +50,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-
+  .content{
+    height: 100%;
+  }
 </style>

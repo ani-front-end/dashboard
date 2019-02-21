@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <!--<h1>{{ msg }}</h1>-->
+    <div class="container"></div>
   </div>
 </template>
 <script>
@@ -27,5 +27,12 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-
+  .content{
+    height:80%;
+    .container{
+      width: 30%;
+      height: 80%;
+      border: 2px solid black;
+    }
+  }
 </style>
