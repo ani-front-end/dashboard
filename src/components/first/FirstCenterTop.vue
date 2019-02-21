@@ -1,7 +1,11 @@
 <template>
   <div class="content">
     <!--<h1>{{ msg }}</h1>-->
-    <chart  ref="chart1" style="width:100%;" :options="orgOptions" ></chart>
+    <chart  ref="chart1"
+            style="height: 3.5rem;width: 7.7rem"
+            :options="orgOptions"
+            :autoresize=true
+    ></chart>
   </div>
 </template>
 <script>
@@ -29,7 +33,8 @@
             'title',
         ],
         mounted() {
-            this.queryData();
+//            this.queryData();
+
         },
         methods:{
           queryData(){

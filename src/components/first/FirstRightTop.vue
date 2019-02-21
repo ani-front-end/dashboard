@@ -1,6 +1,5 @@
 <template>
   <div class="content">
-    <!--<h1>{{ msg }}</h1>-->
   </div>
 </template>
 <script>
@@ -11,16 +10,10 @@
             }
         },
         props: [
-            'title',
         ],
         mounted() {
         },
         computed: {
-            getColorClass: function () {
-                return {
-                    'title-color': this.isBlue,
-                }
-            }
         }
     }
 </script>
