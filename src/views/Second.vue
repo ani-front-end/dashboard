@@ -5,24 +5,27 @@
         <div class="top-left-header">
           <span>同期各问题类型间数量对比</span>
         </div>
-        top-left
+        <SecondTopLeft></SecondTopLeft>
       </div>
       <div class="top-right">
         <div class="top-right-header">
           <span>同期各问题类型间数量对比</span>
         </div>
-        top-right
+        <SecondTopRight></SecondTopRight>
       </div>
     </div>
     <div class="bottom">
       <div class="bottom-header">
         <span>同期各问题类型间数量对比</span>
       </div>
-      bottom
+      <SecondBottom></SecondBottom>
     </div>
   </div>
 </template>
 <script>
+    import SecondTopLeft from '../components/second/SecondTopLeft'
+    import SecondTopRight from '../components/second/SecondTopRight'
+    import SecondBottom from '../components/second/SecondBottom'
     export default {
         data () {
             return {
@@ -30,7 +33,9 @@
             }
         },
         components:{
-
+            'SecondTopLeft':SecondTopLeft,
+            'SecondTopRight':SecondTopRight,
+            'SecondBottom':SecondBottom
         },
         mounted(){
         },
