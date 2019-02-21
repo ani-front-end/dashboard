@@ -99,7 +99,8 @@
     display: flex;
     .left{
       width: 25%;
-      padding: 0.1rem 0.1rem 0.2rem 0.1rem;
+      padding: 0.1rem 0.1rem 0rem 0.1rem;
+      height: 98%;
       .left-top{
         margin: 0 0 0.1rem 0;
         background: #142248;
@@ -125,14 +126,14 @@
         background: none;
         border: 0.1px solid #0e3367;
         height: 53.2%;
-        box-shadow: 3px 3px 15px #0e3367 inset,
-                    -3px -3px 15px #0e3367 inset;
+        box-shadow: 1px 1px 5px #0e3367 inset,
+                    -1px -1px 5px #0e3367 inset;
       }
       .center-bottom{
         background: none;
         border: 0.1px solid #0e3367;
-        box-shadow: 2px 2px 15px #0e3367 inset,
-                    -2px -2px 15px #0e3367 inset;
+        box-shadow: 1px 1px 5px #0e3367 inset,
+                    -1px -1px 5px #0e3367 inset;
         height: 45.6%;
         display: flex;
         align-items: flex-end;
