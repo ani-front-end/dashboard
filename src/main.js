@@ -12,7 +12,6 @@ Vue.component('chart', ECharts)
 Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false
 Vue.use(ElementUI);
-
 new Vue({
   router,
   render: h => h(App)
